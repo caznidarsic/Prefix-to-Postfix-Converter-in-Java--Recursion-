@@ -1,0 +1,19 @@
+Prefix to Postfix Results
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Input Prefix Expressions:       Output Postfix Expressions:
+
+*-A/BC-/AKL                     ABC/-AK/L-*
+*-]A/BC-/AKL                    <--- This prefix expression contains the following invalid characters: ']' 
+*-A/B&C!-/AK:L1                 <--- This prefix expression contains the following invalid characters: '&' '!' ':' '1' 
+-+ABCDEFGH                      <--- This is an invalid prefix expression. Too many operands.
+-++***/*+-ABC                   <--- This is an invalid prefix expression. Too many operators.
+AAAAA++++                       <--- This is an invalid prefix expression. Check order of operands and operators.
+129867304                       <--- This prefix expression contains the following invalid characters: '1' '2' '9' '8' '6' '7' '3' '0' '4' 
+*-A/BC-/AKL                     ABC/-AK/L-*
+*-A/BC-/AKL                     ABC/-AK/L-*
+-*+ABC*-DE+FG                   AB+C*DE-FG+*-
+-+ABC                           AB+C-
+----------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+java version "17.0.2" 2022-01-18 LTS
+Eclipse Version: 2021-12 (4.22.0)
+
+When this program is run from the terminal, it will prompt the user for 
+the path of an input file, and the path of an output file.
+	
